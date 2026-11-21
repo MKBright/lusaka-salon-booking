@@ -1,0 +1,82 @@
+{
+  "id": "kabwata-cuts",
+  "name": "Kabwata Cuts",
+  "tagline": "Fades, line-ups, and a clean chair on Chilimbulu Road.",
+  "area": "Kabwata, Lusaka",
+  "address": "Shop 4, Chilimbulu Road, Kabwata, Lusaka",
+  "whatsapp": "0970 000 001",
+  "ownerPin": "2468",
+  "slotMinutes": 30,
+  "bookingWindowDays": 21,
+  "staffLabel": "Barber",
+  "hours": {
+    "monday": { "open": "08:00", "close": "18:30" },
+    "tuesday": { "open": "08:00", "close": "18:30" },
+    "wednesday": { "open": "08:00", "close": "18:30" },
+    "thursday": { "open": "08:00", "close": "18:30" },
+    "friday": { "open": "08:00", "close": "18:30" },
+    "saturday": { "open": "08:00", "close": "17:00" },
+    "sunday": null
+  },
+  "blockedDates": ["2026-11-25", "2026-12-25", "2026-12-26", "2027-01-01"],
+  "services": [
+    {
+      "id": "buzz",
+      "name": "Buzz cut",
+      "durationMinutes": 20,
+      "priceZmw": 40,
+      "description": "Even all over"
+    },
+    {
+      "id": "classic",
+      "name": "Classic cut",
+      "durationMinutes": 30,
+      "priceZmw": 50,
+      "description": "Scissor or clipper"
+    },
+    {
+      "id": "skin-fade",
+      "name": "Skin fade",
+      "durationMinutes": 45,
+      "priceZmw": 70,
+      "description": "Fade with a line-up"
+    },
+    {
+      "id": "beard",
+      "name": "Beard trim",
+      "durationMinutes": 20,
+      "priceZmw": 30,
+      "description": "Shape and line"
+    },
+    {
+      "id": "cut-beard",
+      "name": "Cut and beard",
+      "durationMinutes": 60,
+      "priceZmw": 90,
+      "description": "Classic cut plus beard"
+    }
+  ],
+  "staff": [
+    { "id": "joseph", "name": "Joseph Zulu" },
+    { "id": "peter", "name": "Peter Mulenga" }
+  ],
+  "photos": [
+    { "src": "photos/chair.svg", "alt": "Barber chair and mirror at Kabwata Cuts" },
+    { "src": "photos/clippers.svg", "alt": "Clippers and a comb on the counter" }
+  ],
+  "deposit": {
+    "amountZmw": 20,
+    "momo": "0970 000 001",
+    "airtel": "0970 000 003",
+    "note": "Optional. Pay the shop yourself if you want the chair held."
+  },
+  "theme": {
+    "background": "#f6f0e6",
+    "surface": "#fffdf8",
+    "ink": "#241c16",
+    "muted": "#6a5c4e",
+    "accent": "#8f3d18",
+    "accentInk": "#fff7ef",
+    "line": "#eadfce"
+  }
+}

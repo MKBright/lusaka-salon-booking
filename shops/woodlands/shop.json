@@ -1,0 +1,78 @@
+{
+  "id": "woodlands-hair-room",
+  "name": "Woodlands Hair Room",
+  "tagline": "Wash, press, and braids by appointment on Alick Nkhata Road.",
+  "area": "Woodlands, Lusaka",
+  "address": "Alick Nkhata Road, Woodlands, Lusaka",
+  "whatsapp": "0970 000 002",
+  "ownerPin": "1357",
+  "slotMinutes": 30,
+  "bookingWindowDays": 21,
+  "hours": {
+    "monday": { "open": "09:00", "close": "18:00" },
+    "tuesday": { "open": "09:00", "close": "18:00" },
+    "wednesday": { "open": "09:00", "close": "18:00" },
+    "thursday": { "open": "09:00", "close": "18:00" },
+    "friday": { "open": "09:00", "close": "18:00" },
+    "saturday": { "open": "09:00", "close": "15:00" },
+    "sunday": null
+  },
+  "blockedDates": ["2026-12-24", "2026-12-25", "2027-01-01"],
+  "services": [
+    {
+      "id": "wash-blow",
+      "name": "Wash and blow-dry",
+      "durationMinutes": 45,
+      "priceZmw": 150,
+      "description": "Wash, dry, and finish"
+    },
+    {
+      "id": "trim",
+      "name": "Trim and shape",
+      "durationMinutes": 40,
+      "priceZmw": 120,
+      "description": "Ends, fringe, or a shape-up"
+    },
+    {
+      "id": "silk-press",
+      "name": "Silk press",
+      "durationMinutes": 90,
+      "priceZmw": 280,
+      "description": "Smooth press on natural hair"
+    },
+    {
+      "id": "retwist",
+      "name": "Loc retwist",
+      "durationMinutes": 120,
+      "priceZmw": 320,
+      "description": "Retwist and style"
+    },
+    {
+      "id": "knotless-braids",
+      "name": "Knotless braids",
+      "durationMinutes": 180,
+      "priceZmw": 480,
+      "description": "Medium knotless, to the shoulder"
+    }
+  ],
+  "staff": [],
+  "photos": [
+    { "src": "photos/room.svg", "alt": "Salon chair by a window at Woodlands Hair Room" },
+    { "src": "photos/combs.svg", "alt": "Combs and a bottle of oil on a linen cloth" }
+  ],
+  "deposit": {
+    "amountZmw": 50,
+    "momo": "0970 000 002",
+    "airtel": "0970 000 004",
+    "note": "Optional. Pay the shop yourself if you want the time held."
+  },
+  "theme": {
+    "background": "#f3f1ec",
+    "surface": "#fffcf8",
+    "ink": "#221e1b",
+    "muted": "#5e5854",
+    "accent": "#1e5c50",
+    "accentInk": "#f3fbf7",
+    "line": "#e3ddd4"
+  }
+}

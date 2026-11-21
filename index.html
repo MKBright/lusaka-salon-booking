@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A booking page for one Lusaka salon or barber. Customers request a time on WhatsApp.">
+  <meta name="theme-color" content="#1e5c50">
+  <title>Lusaka salon booking</title>
+  <link rel="icon" href="favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main class="app home">
+    <header class="masthead">
+      <p class="kicker">Lusaka</p>
+      <h1>One shop. One booking link.</h1>
+      <p>A customer picks a service and a free time, then sends the request on WhatsApp.</p>
+    </header>
+    <div class="sheet">
+      <p class="lede">Copy a folder, edit one config file, and hand that shop their link. The sample index is only here so both demos can be opened. It is a page for a single shop, not a marketplace.</p>
+      <div class="sample-list">
+        <a class="sample-card" href="shops/kabwata/">
+          <img src="shops/kabwata/photos/chair.svg" alt="Illustrated barber chair" width="320" height="180">
+          <span>
+            <span class="kicker">Kabwata · barber</span>
+            <strong>Kabwata Cuts</strong>
+            <span class="fine">Two barbers · desk PIN 2468</span>
+          </span>
+        </a>
+        <a class="sample-card" href="shops/woodlands/">
+          <img src="shops/woodlands/photos/room.svg" alt="Illustrated salon chair by a window" width="320" height="180">
+          <span>
+            <span class="kicker">Woodlands · salon</span>
+            <strong>Woodlands Hair Room</strong>
+            <span class="fine">No staff list · desk PIN 1357</span>
+          </span>
+        </a>
+      </div>
+      <div class="note">
+        <strong>About the desk PIN</strong>
+        <p>The PIN only hides the diary on this phone. It is written in <code>shop.json</code>, so anyone who can open the file can read it. It is basic protection, not a secure login. Sample numbers are fictional. Do not send them money.</p>
+      </div>
+      <p class="footer">Built by <a href="https://github.com/MKBright">Wankumbu Musunga</a>.</p>
+    </div>
+  </main>
+</body>
+</html>
